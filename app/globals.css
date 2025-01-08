@@ -119,7 +119,7 @@
 
   /* Room card */
   .room-card {
-    @apply block rounded-lg border text-center border-stone-400 m-4 bg-white hover:bg-neutral-800;
+    @apply rounded-lg border text-center border-stone-400 m-4 bg-white hover:bg-gray-300;
   }
 
   .booking-form {

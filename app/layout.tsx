@@ -6,6 +6,7 @@ import Footer from "./component/layout/footer";
 export const metadata: Metadata = {
   title: "The Cozy Nook",
   description: "Home page",
+  icons: "/logo.png",
 };
 
 export default function RootLayout({
@@ -15,10 +16,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <Header />
+      <body className="flex flex-col min-h-screen">
+        <header>
+          <Header />
+        </header>
+
         {children}
-        <Footer />
+        
+        <footer  className="mt-auto">
+          <Footer />
+        </footer>
       </body>
     </html>
   );

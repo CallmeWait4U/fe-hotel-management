@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import { CardObject } from "./type";
+import { CardObject } from "../type";
 
-const Card = (props: { data: CardObject, isReverse: boolean }) => {
+const HomeCard = (props: { data: CardObject, isReverse: boolean }) => {
   return (
     <div
       className={`flex w-1/2 text-center gap-5 transition md:gap-4 duration-400 group
@@ -21,4 +21,4 @@ const Card = (props: { data: CardObject, isReverse: boolean }) => {
   );
 };
 
-export default Card;
+export default HomeCard;
