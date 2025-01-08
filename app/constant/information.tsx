@@ -98,7 +98,7 @@ export const services = [
 
 export const roomInfo = [
   {
-    route: "/rooms/single",
+    route: "/rooms/single-bedroom",
     name: "Single bedroom",
     thumbnail: "/img/single_room.jpg",
     imageUrls: [
@@ -118,9 +118,10 @@ export const roomInfo = [
     beds: "One standard bed",
     bathrooms: "Rain shower, hairdryer",
     price: "300.000",
+    rating: 4.5,
   },
   {
-    route: "/rooms/double",
+    route: "/rooms/double-bedroom",
     name: "Double bedroom",
     thumbnail: "/img/double_room.jpg",
     imageUrls: ["/img/double/1.jpg", "/img/double/2.jpg", "/img/double/3.jpg", "/img/double/4.jpg"],
@@ -141,9 +142,10 @@ export const roomInfo = [
     beds: "Two standard bed",
     bathrooms: "Rain shower, separate marble tub, hairdryer",
     price: "500.000",
+    rating: 5,
   },
   {
-    route: "/rooms/deluxe",
+    route: "/rooms/deluxe-room",
     name: "Deluxe room",
     thumbnail: "/img/deluxe_room.jpg",
     imageUrls: [
@@ -174,9 +176,10 @@ export const roomInfo = [
     beds: "One king bed",
     bathrooms: "Rain shower, separate marble tub, hairdryer",
     price: "800.000",
+    rating: 3.5,
   },
   {
-    route: "/rooms/family",
+    route: "/rooms/family-room",
     name: "Family room",
     thumbnail: "/img/family_room.jpg",
     imageUrls: [
@@ -205,6 +208,7 @@ export const roomInfo = [
     beds: "One king bed",
     bathrooms: "Rain shower, separate marble tub, hairdryer",
     price: "1.000.000",
+    rating: 4.5,
   },
   {
     route: "/rooms/suite",
@@ -231,6 +235,7 @@ export const roomInfo = [
     beds: "Three king beds",
     bathrooms: "Rain shower, separate marble tub, hairdryer",
     price: "2.000.000",
+    rating: 3,
   },
   {
     route: "/rooms/penthouse",
@@ -265,5 +270,6 @@ export const roomInfo = [
     beds: "Four king beds",
     bathrooms: "Rain shower, separate marble tub, pink hairdryer, music player",
     price: "5.000.000",
+    rating: 3.5,
   },
 ];

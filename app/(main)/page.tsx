@@ -1,10 +1,8 @@
-"use client";
-
 import Link from "next/link";
-import ImageSlider from "./component/slider/imageSlider";
-import SlickSlider from "./component/slider/slickSlider";
-import HomeCard from "./component/card/homeCard";
-import { homeCard, images1, images2, services } from "./constant/information";
+import ImageSlider from "../component/slider/imageSlider";
+import { homeCard, images1, images2, services } from "../constant/information";
+import HomeCard from "../component/card/homeCard";
+import SlickSlider from "../component/slider/slickSlider";
 
 export default function Home() {
   return (

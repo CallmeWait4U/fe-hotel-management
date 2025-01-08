@@ -57,7 +57,7 @@ const Header = () => {
         </div>
         <Link href="/" className="flex justify-center">
           <div className="flex items-center select-none">
-            <Image src="/logo.png" width={"8"} height={"8"} alt="Logo hotel" className="w-12 h-12 m-2" />
+            <Image src="/logo.png" width={1000} height={1000} alt="Logo hotel" className="w-12 h-12 m-2" />
             <p className="font-inter body-bold text-black">The Cozy Nook</p>
           </div>
         </Link>

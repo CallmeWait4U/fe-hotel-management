@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import "./globals.css";
-import Header from "./component/layout/header";
-import Footer from "./component/layout/footer";
+import "../globals.css";
+import Header from "../component/layout/header";
+import Footer from "../component/layout/footer";
 
 export const metadata: Metadata = {
   title: "The Cozy Nook",

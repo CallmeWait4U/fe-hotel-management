@@ -1,12 +1,12 @@
 "use client";
 
-import RoomCard from '../component/card/roomCard';
-import BookForm from '../component/form/bookForm';
-import { roomInfo } from '../constant/information';
-import { formatPrice } from '../utils/utils';
+import RoomCard from '../../component/card/roomCard';
+import Breadcrumb from '../../component/common/breadcrumb';
+import BookForm from '../../component/form/bookForm';
+import { roomInfo } from '../../constant/information';
+import { formatPrice } from '../../utils/utils';
 
 export default function RoomPage() {
-
   const handleSubmit = (data: FormData) => {
     const obj: { [x: string]: FormDataEntryValue; } = {};
     data.forEach((value, key) => {
@@ -17,8 +17,19 @@ export default function RoomPage() {
 
   const data = roomInfo;
 
+  const bc = [
+    {
+      name: "Home",
+      route: "/",
+    },
+    {
+      name: "Rooms"
+    },
+  ];
+
   return (
     <div className="flex flex-col justify-center">
+      <Breadcrumb breadcrumbs={bc} />
       <div className="flex justify-center">
         <BookForm handleData={handleSubmit}/>
       </div>

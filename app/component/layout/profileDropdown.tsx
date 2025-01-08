@@ -1,14 +1,10 @@
+"use client";
+
 import Link from "next/link";
-import { useState } from "react";
 import { FaKey, FaUser } from "react-icons/fa";
 import { FaArrowRightFromBracket, FaBellConcierge } from "react-icons/fa6";
 
 const ProfileDropdown = () => {
-  const [dropDownProfile, setDropDownProfile] = useState(false);
-  
-  const toggleProfile = () => {
-    setDropDownProfile(!dropDownProfile);
-  };
 
   const handleSignOut = () => {
     //

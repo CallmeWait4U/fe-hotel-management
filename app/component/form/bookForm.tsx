@@ -1,3 +1,5 @@
+"use client";
+
 import Form from "next/form";
 
 const BookForm = (props: {handleData: (data: FormData) => void}) => {

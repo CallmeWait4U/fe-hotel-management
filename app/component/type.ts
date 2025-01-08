@@ -13,3 +13,8 @@ export type CardObject = {
   description: string;
   icon: JSX.Element;
 };
+
+export type BreadcrumbObject = {
+  name: string;
+  route?: string;
+}
