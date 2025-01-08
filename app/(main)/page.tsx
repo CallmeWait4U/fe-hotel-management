@@ -1,6 +1,6 @@
 import Link from "next/link";
 import ImageSlider from "../component/slider/imageSlider";
-import { homeCard, images1, images2, services } from "../constant/information";
+import { homeCard, images1, images2, serviceNames } from "../constant/information";
 import HomeCard from "../component/card/homeCard";
 import SlickSlider from "../component/slider/slickSlider";
 
@@ -39,7 +39,7 @@ export default function Home() {
           <p className="font-semibold text-primary">About our services</p>
           <h2 className="w-full font-serif text-5xl leading-normal mb-6">Explore Our Hotel Services</h2>
           <Link href="/services" className="flex flex-col md:flex-row gap-6 hover:cursor-pointer">
-            {services.map((service, index) => (
+            {serviceNames.map((service, index) => (
               <div key={index} className="group flex flex-col items-center text-primary transition-colors duration-300">
                 <div className="bg-white p-6 rounded-t-full rounded-br-full shadow-md mb-4 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
                   {service.icon}

@@ -15,7 +15,7 @@ export const images1 = [
     url: "/img/restaurant.jpg",
     title: "Restaurant",
     description:
-              "Enjoy a vibrant atmosphere, impeccable service, and a menu that caters to breakfast, lunch, and dinner. Our talented chefs showcase their expertise with innovative dishes prepared using fresh, locally sourced ingredients.",
+              "Enjoy a vibrant atmosphere, impeccable serviceName, and a menu that caters to breakfast, lunch, and dinner. Our talented chefs showcase their expertise with innovative dishes prepared using fresh, locally sourced ingredients.",
   },
   {
     id: "3",
@@ -87,7 +87,7 @@ export const homeCard = [
   },
 ];
   
-export const services = [
+export const serviceNames = [
   { icon: <PiWifiHigh size={56} />, title: "Free Wifi" },
   { icon: <PiCalendarCheckDuotone size={56} />, title: "Easy Booking" },
   { icon: <PiForkKnife size={56} />, title: "Restaurant" },
@@ -262,7 +262,7 @@ export const roomInfo = [
       "Soundproof room",
     ],
     introduction:
-      "Experience unrivaled luxury in our Penthouse, featuring breathtaking views, exquisite decor, and exceptional amenities for the ultimate in comfort and elegance. Enjoy exclusive privacy and top-tier service in our Penthouse, designed to provide a sophisticated retreat for the discerning traveler.",
+      "Experience unrivaled luxury in our Penthouse, featuring breathtaking views, exquisite decor, and exceptional amenities for the ultimate in comfort and elegance. Enjoy exclusive privacy and top-tier serviceName in our Penthouse, designed to provide a sophisticated retreat for the discerning traveler.",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, iusto nulla perspiciatis facilis atque, velit eaque nobis, magnam odit obcaecati eos ipsam dolorum explicabo quos totam a voluptatibus voluptas dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit non temporibus consectetur facilis magni similique neque, aut corrupti repudiandae aliquam quasi iste tenetur accusantium consequuntur ipsum, vel qui perferendis Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias rem quod fuga veniam nesciunt natus placeat cupiditate optio magni. Illo tempore nulla, iste reprehenderit quaerat consequuntur velit ducimus reiciendis sint.",
     size: "120",
@@ -271,5 +271,36 @@ export const roomInfo = [
     bathrooms: "Rain shower, separate marble tub, pink hairdryer, music player",
     price: "5.000.000",
     rating: 3.5,
+  },
+];
+
+export const serviceInfo = [
+  {
+    url: "/img/spa_1.jpg",
+    serviceName: "Spa",
+    title: "Relax and chill",
+    introduction:
+      "Our extensive range of spa treatments, including soothing massages, revitalizing facials, and aromatic therapies, is tailored to meet your unique needs. Escape the hustle and bustle of everyday life and indulge in our tranquil environment, where our skilled therapists are dedicated to enhancing your well-being and restoring your inner balance.",
+  },
+  {
+    url: "/img/restaurant_1.jpg",
+    serviceName: "Restaurant",
+    title: "Enjoy foods and drinks",
+    introduction:
+      "Delight your senses with exquisite dining experience at our restaurant. Enjoy a diverse menu featuring gourmet dishes crafted from the freshest ingredients, paired with an exceptional selection of wines and beverages. Whether you're indulging in a hearty breakfast, a leisurely lunch, or an elegant dinner, our culinary team is dedicated to providing a memorable dining experience that combines flavor, ambiance, and impeccable serviceName.",
+  },
+  {
+    url: "/img/gym.jpg",
+    serviceName: "Gym",
+    title: "Have a healthy life",
+    introduction:
+      "Elevate your fitness journey in our state-of-the-art gym, designed to help you achieve your health and wellness goals. Our facility features a wide range of modern equipment, from cardio machines to free weights, catering to all fitness levels. Join our dynamic group classes or work with our professional trainers for personalized guidance and support.",
+  },
+  {
+    url: "/img/pet.jpg",
+    serviceName: "Pet care",
+    title: "We love your pets",
+    introduction:
+    "Ensure your pets live a healthy and happy life with our comprehensive pet care serviceNames. Our experienced team provides a wide range of serviceNames, including routine check-ups, vaccinations, grooming, and specialized treatments. We are dedicated to delivering the highest quality care for your furry companions, ensuring they receive the attention and love they deserve in a safe and nurturing environment."
   },
 ];
