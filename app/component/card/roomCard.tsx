@@ -23,7 +23,7 @@ const RoomCard = (props: { route: string, name: string, description: string, pri
         {/* Price and book */}
         <div className="flex-between font-semibold">
           <p className="text-gold">{props.price} VND / NIGHT</p>
-          <Link href={props.route}>
+          <Link href={"/booking"}>
             <button
               type="button"
               className="font-medium px-4 py-2 rounded-md bg-primary text-white active:animate-click-ease-out transition-all duration-300 hover:bg-primary-1"

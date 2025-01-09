@@ -2,7 +2,7 @@
 
 import Form from "next/form";
 
-const BookForm = (props: {handleData: (data: FormData) => void}) => {
+const CheckForm = (props: {handleData: (data: FormData) => void}) => {
   const dropdownRooms = [ "Single bedroom", "Double bedroom", "Deluxe Room"," Family Room", "Suite", "Penthouse" ];
     
   const dropdownGuests = [ "1", "2", "3", "4", "5+" ];
@@ -52,4 +52,4 @@ const BookForm = (props: {handleData: (data: FormData) => void}) => {
   )
 }
 
-export default BookForm;
+export default CheckForm;

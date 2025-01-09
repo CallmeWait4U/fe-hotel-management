@@ -2,7 +2,7 @@
 
 import RoomCard from '../../component/card/roomCard';
 import Breadcrumb from '../../component/common/breadcrumb';
-import BookForm from '../../component/form/bookForm';
+import CheckForm from '../../component/form/checkForm';
 import { roomInfo } from '../../constant/information';
 import { formatPrice } from '../../utils/utils';
 
@@ -31,7 +31,7 @@ export default function RoomPage() {
     <div className="flex flex-col justify-center">
       <Breadcrumb breadcrumbs={bc} />
       <div className="flex justify-center">
-        <BookForm handleData={handleSubmit}/>
+        <CheckForm handleData={handleSubmit}/>
       </div>
 
       {!data ? (
