@@ -24,7 +24,7 @@ interface BookingForm {
 export default function BookingPage() {
   const [bookingData, setBookingData] = useState<BookingForm>();
     
-  const { register, handleSubmit, getValues, formState: { errors, touchedFields } } = useForm<BookingForm>();
+  const { register, handleSubmit, getValues, formState: { errors } } = useForm<BookingForm>();
 
   const onSubmit:SubmitHandler<BookingForm> = (data) => {
     setBookingData(data);
