@@ -8,7 +8,7 @@ import { formatPrice } from "@/app/utils/utils";
 import Image from "next/image";
 import Link from "next/link";
 
-export default async function RoomDetailPage({ params }: { params: Promise<{ name: string }>}) {
+export default async function RoomDetailPage({ params }: { params: Promise<{ name: string }> }) {
   const name = (await params).name.replaceAll("-", " ");
   const room = roomInfo.filter(item => item.name.toLowerCase() === name)[0];
 

@@ -276,31 +276,31 @@ export const roomInfo = [
 
 export const serviceInfo = [
   {
-    url: "/img/spa_1.jpg",
+    image: "/img/spa_1.jpg",
     serviceName: "Spa",
     title: "Relax and chill",
     introduction:
       "Our extensive range of spa treatments, including soothing massages, revitalizing facials, and aromatic therapies, is tailored to meet your unique needs. Escape the hustle and bustle of everyday life and indulge in our tranquil environment, where our skilled therapists are dedicated to enhancing your well-being and restoring your inner balance.",
   },
   {
-    url: "/img/restaurant_1.jpg",
+    image: "/img/restaurant_1.jpg",
     serviceName: "Restaurant",
     title: "Enjoy foods and drinks",
     introduction:
       "Delight your senses with exquisite dining experience at our restaurant. Enjoy a diverse menu featuring gourmet dishes crafted from the freshest ingredients, paired with an exceptional selection of wines and beverages. Whether you're indulging in a hearty breakfast, a leisurely lunch, or an elegant dinner, our culinary team is dedicated to providing a memorable dining experience that combines flavor, ambiance, and impeccable serviceName.",
   },
   {
-    url: "/img/gym.jpg",
+    image: "/img/gym.jpg",
     serviceName: "Gym",
     title: "Have a healthy life",
     introduction:
       "Elevate your fitness journey in our state-of-the-art gym, designed to help you achieve your health and wellness goals. Our facility features a wide range of modern equipment, from cardio machines to free weights, catering to all fitness levels. Join our dynamic group classes or work with our professional trainers for personalized guidance and support.",
   },
   {
-    url: "/img/pet.jpg",
-    serviceName: "Pet care",
-    title: "We love your pets",
+    image: "/img/swimming.jpg",
+    serviceName: "Swimming",
+    title: "Enhance your health through swimming",
     introduction:
-    "Ensure your pets live a healthy and happy life with our comprehensive pet care serviceNames. Our experienced team provides a wide range of serviceNames, including routine check-ups, vaccinations, grooming, and specialized treatments. We are dedicated to delivering the highest quality care for your furry companions, ensuring they receive the attention and love they deserve in a safe and nurturing environment."
+    "Elevate your fitness journey at our state-of-the-art swimming pool, designed to offer the perfect environment for building endurance and improving overall health. Whether you're a beginner or an experienced swimmer, our pool caters to all skill levels. Join our group classes or work with professional trainers for personalized coaching to maximize your results and achieve your wellness goals."
   },
 ];
